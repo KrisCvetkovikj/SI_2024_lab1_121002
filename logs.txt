@@ -1,0 +1,276 @@
+ kristijan.cvetkovikj@Kris-MBPro  ~  cd IdeaProjects
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects  mkdir SI_2024_lab1_121002
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects  cd SI_2024_lab1_121002
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002  git init
+Initialized empty Git repository in /Users/kristijan.cvetkovikj/IdeaProjects/SI_2024_lab1_121002/.git/
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git remote add origin https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git remote
+origin
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git add README.md
+fatal: pathspec 'README.md' did not match any files
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  touch README.md
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  open README.md
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git add README.md
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main ✚  git commit -m "Initial commit"
+[main (root-commit) b8fb12f] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  ls
+README.md        SILab1Main.java  SILab1_1.java    SILab1_2.java
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1Main.java
+        SILab1_1.java
+        SILab1_2.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git commit -m "Add starter code"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SILab1Main.java
+        SILab1_1.java
+        SILab1_2.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git add SILab*
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main ✚  git commit -m "Add starter code"
+[main f62c8e5] Add starter code
+ 3 files changed, 47 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+ create mode 100644 SILab1_2.java
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git'
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   main  git branch -M master
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git push -u origin master
+Username for 'https://github.com': KrisCvetkovikj
+Password for 'https://KrisCvetkovikj@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git/'
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git push -u origin master
+Username for 'https://github.com': KrisCvetkovikj
+Password for 'https://KrisCvetkovikj@github.com':
+
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.10 KiB | 563.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master 
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git swti
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git switch bug1
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git commit -m "Fix wrong condition in filterOddLengthStrings"
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1_1.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git status
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1_1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git switch bug2
+fatal: invalid reference: bug2
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git switch master
+M       SILab1_1.java
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master ±  git checkout -b bug2
+Switched to a new branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ±  git switch bug1
+M       SILab1_1.java
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git status
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1_1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git switch bug2
+M       SILab1_1.java
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ±  git switch bug1
+M       SILab1_1.java
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git checkout bug2
+M       SILab1_1.java
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ±  git switch bug1
+M       SILab1_1.java
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git switch bug2
+M       SILab1_1.java
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ±  git commit -m "Fix wrong condition in makeBigStringFrom"
+On branch bug2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1_1.java
+        modified:   SILab1_2.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ±  git switch bug1
+M       SILab1_1.java
+M       SILab1_2.java
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git commit -m "Call method filterOddLengthStrings in main class"
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1Main.java
+        modified:   SILab1_1.java
+        modified:   SILab1_2.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git switch bug1
+Already on 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git add .
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ✚  git commit -m "Fix wrong condition in filterOddLengthStrings"
+[bug1 19b1744] Fix wrong condition in filterOddLengthStrings
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git switch bug2
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git add .
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ✚  git commit -m "Fix wrong condition in makeBigStringFrom"
+[bug2 b0d0c71] Fix wrong condition in makeBigStringFrom
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git switch bug2
+Already on 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git switch bug1
+Switched to branch 'bug1'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git commit -m "Call method filterOddLengthStrings in main class"
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1Main.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ±  git add .
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1 ✚  git commit -m "Call method filterOddLengthStrings in main class"
+[bug1 73bb702] Call method filterOddLengthStrings in main class
+ 1 file changed, 1 insertion(+)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug1  git switch bug2
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git add .
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ✚  Call method makeBigStringFrom in main class
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2 ✚  git commit -m "Call method makeBigStringFrom in main class"
+[bug2 04665c8] Call method makeBigStringFrom in main class
+ 1 file changed, 1 insertion(+)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git status
+On branch bug2
+nothing to commit, working tree clean
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git push
+fatal: The current branch bug2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git push --all origin
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.24 KiB | 1.24 MiB/s, done.
+Total 12 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+ * [new branch]      bug1 -> bug1
+ * [new branch]      bug2 -> bug2
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git merge bug1
+Updating f62c8e5..73bb702
+Fast-forward
+ SILab1Main.java | 1 +
+ SILab1_1.java   | 4 ++--
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002  ↱ master  git push --all origin
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+   f62c8e5..73bb702  master -> master
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git switch bug2
+Switched to branch 'bug2'
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git rebase master
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+error: could not apply 04665c8... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 04665c8... Call method makeBigStringFrom in main class
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002  ➦ 6c3ac80 ±✚ >R>  git add SILab1Main.java
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002  ➦ 6c3ac80 ✚ >R>  git rebase --continue
+[detached HEAD aaa3d13] Call method makeBigStringFrom in main class
+ 1 file changed, 1 insertion(+)
+Successfully rebased and updated refs/heads/bug2.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   bug2  git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git merge bug2
+Updating 73bb702..aaa3d13
+Fast-forward
+ SILab1Main.java | 1 +
+ SILab1_2.java   | 4 ++--
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002  ↱ master  git push --all origin
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 663 bytes | 663.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+   73bb702..aaa3d13  master -> master
+ ! [rejected]        bug2 -> bug2 (non-fast-forward)
+error: failed to push some refs to 'https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and integrate the remote changes
+hint: (e.g. 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+ ✘ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  git push --all origin --force
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+ + 04665c8...aaa3d13 bug2 -> bug2 (forced update)
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master  touch logs.txt
+ kristijan.cvetkovikj@Kris-MBPro  ~/IdeaProjects/SI_2024_lab1_121002   master 

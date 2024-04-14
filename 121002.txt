@@ -1,0 +1,35 @@
+git init
+git remote add origin https://github.com/KrisCvetkovikj/SI_2024_lab1_121002.git
+git add README.md
+git commit -m "Initial commit"
+git add SILab*                               
+git commit -m "Add starter code"
+git branch -M master
+git push -u origin master
+git checkout -b bug1
+git switch master
+git checkout -b bug2
+git switch bug1
+git add .
+git commit -m "Fix wrong condition in filterOddLengthStrings" 
+git switch bug2
+git add .
+git commit -m "Fix wrong condition in makeBigStringFrom"
+git switch bug1
+git add .
+git commit -m "Call method filterOddLengthStrings in main class"
+git switch bug2
+git add .
+git commit -m "Call method makeBigStringFrom in main class"
+git push --all origin
+git switch master
+git merge bug1
+git push --all origin
+git switch bug2
+git rebase master
+git add SILab1Main.java
+git rebase --continue
+git switch master
+git merge bug2
+git push --all origin
+git push --all origin --force
